@@ -35,7 +35,7 @@ int ERRORS_DETECTED = 0;
 int FLASH_OP_CHECK = FO_CHK_OFF;
 
 // Accumulate the number of FLASH ops performed since the test started
-int FLASH_OP_COUNT = 0;    
+int FLASH_OP_COUNT = 0;
 
 // Reusable array of bytes to hold lower 3 bytes of address, use for invoking FLASH operation
 byte FLASH_ADDR[] = { 0x00, 0x00, 0x00 };
@@ -46,8 +46,8 @@ byte FLASH_UPPER_ADDR_DEV1 = 0x00;
 byte FLASH_UPPER_ADDR_DEV2 = 0x00;
 
 // Set to size of DTR / DRR FIFOs used in IP wizard when generating Quad SPI core (16 or 256 bytes)
-//const int FIFO_DEPTH = 256;    
-  const int FIFO_DEPTH = 16;     
+//const int FIFO_DEPTH = 256;
+const int FIFO_DEPTH = 16;
 
 
 #endif
